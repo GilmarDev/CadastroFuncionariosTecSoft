@@ -25,7 +25,7 @@ public class CadastroController {
 
 	
 	@Autowired
-	CadastroRepository cadastroRepository;
+	private CadastroRepository cadastroRepository;
 	
 	
 	@GetMapping("/buscar")
